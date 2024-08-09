@@ -5,3 +5,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+:root {
+    --clr-gold: #DCC48E;
+    --clr-beige: #EAEFD3;
+    --clr-purple: #27233A;
+}
