@@ -118,3 +118,16 @@ main {
     font-weight: 800;
     margin-top: 1rem;
 }
+
+.btn {
+    border: 0;
+    line-height: 1;
+    background-color: var(--clr-beige);
+    color: var(--clr-purple);
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
