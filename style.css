@@ -75,3 +75,28 @@ main {
 .marcador .puntos {
     font-size: 1.6rem;
 }
+
+.elige-tu-arma {
+    margin-bottom: 2rem;
+}
+
+.elige-tu-arma h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.armas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma {
+    font-size: 2rem;
+    background-color: var(--clr-purple);
+    border: 2px solid var(--clr-beige);
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
