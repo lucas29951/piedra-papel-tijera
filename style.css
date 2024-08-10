@@ -101,6 +101,10 @@ main {
     cursor: pointer;
 }
 
+.arma:hover {
+    background-color: var(--clr-beige);
+}
+
 .mensaje {
     margin-bottom: 2rem;
     line-height: 1.8;
@@ -130,4 +134,10 @@ main {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.btn:hover {
+    border: 2px solid var(--clr-beige);
+    background-color: var(--clr-purple);
+    color: var(--clr-beige);
 }
