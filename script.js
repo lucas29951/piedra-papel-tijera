@@ -11,3 +11,8 @@ let eligeTuArma = document.querySelector('#elige-tu-arma');
 
 let contenedorEleccionUsuario = document.querySelector('#eleccion-usuario');
 let contenedorEleccionPC = document.querySelector('#eleccion-computadora');
+
+let botonesArmas = document.querySelectorAll('.arma');
+botonesArmas.forEach(boton => {
+    boton.addEventListener('click', iniciarTurno);
+});
