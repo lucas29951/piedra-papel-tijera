@@ -28,4 +28,20 @@ function iniciarTurno(e) {
     } else if(eleccionPC === 2){
         eleccionPC = "tijera";
     }
+
+    if(
+    (eleccionUsuario === "piedra" && eleccionPC === "tijera") ||
+    (eleccionUsuario === "tijera" && eleccionPC === "papel") ||
+    (eleccionUsuario === "papel" && eleccionPC === "piedra")
+    ){
+        ganaUsuario();
+    } else if(
+    (eleccionPC === "piedra" && eleccionUsuario === "tijera") ||
+    (eleccionPC === "tijera" && eleccionUsuario === "papel") ||
+    (eleccionPC === "papel" && eleccionUsuario === "piedra")
+    ){
+        ganaPC();
+    } else {
+        empate();
+    }
 }
