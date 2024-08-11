@@ -68,3 +68,9 @@ function ganaUsuario() {
     contenedorPuntosUsuario.innerHTML = puntosUsuario;
     contenedorGanaPunto.innerHTML = "¡Ganaste un punto! 🔥";
 }
+
+function ganaPC(){
+    puntosPC++;
+    contenedorPuntosPC.innerHTML = puntosPC;
+    contenedorGanaPunto.innerHTML = "¡La computadora gano un punto! 😭";
+}
