@@ -78,3 +78,16 @@ function ganaPC(){
 function empate(){
     contenedorGanaPunto.innerHTML = "¡Empate 😱!";
 }
+
+function reiniciarJuego(){
+    reiniciar.classList.add('disabled');
+    eligeTuArma.classList.remove('disabled');
+    mensaje.classList.add('disabled');
+
+    puntosUsuario = 0;
+    puntosPC = 0;
+    contenedorPuntosUsuario.innerHTML = puntosUsuario;
+    contenedorPuntosPC.innerHTML = puntosPC;
+
+    instrucciones.innerHTML = "El primero en llegar a 5 puntos gana.";
+}
