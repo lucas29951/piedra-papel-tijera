@@ -62,3 +62,9 @@ function iniciarTurno(e) {
         reiniciar.addEventListener('click', reiniciarJuego);
     }
 }
+
+function ganaUsuario() {
+    puntosUsuario++;
+    contenedorPuntosUsuario.innerHTML = puntosUsuario;
+    contenedorGanaPunto.innerHTML = "¡Ganaste un punto! 🔥";
+}
