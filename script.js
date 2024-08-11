@@ -20,4 +20,12 @@ botonesArmas.forEach(boton => {
 function iniciarTurno(e) {
     let eleccionPC = Math.floor(Math.random() * 3);
     let eleccionUsuario = e.currentTarget.id;
+
+    if(eleccionPC === 0){
+        eleccionPC = "piedra";
+    } else if(eleccionPC === 1){
+        eleccionPC = "papel";
+    } else if(eleccionPC === 2){
+        eleccionPC = "tijera";
+    }
 }
