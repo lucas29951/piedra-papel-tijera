@@ -16,3 +16,8 @@ let botonesArmas = document.querySelectorAll('.arma');
 botonesArmas.forEach(boton => {
     boton.addEventListener('click', iniciarTurno);
 });
+
+function iniciarTurno(e) {
+    let eleccionPC = Math.floor(Math.random() * 3);
+    let eleccionUsuario = e.currentTarget.id;
+}
