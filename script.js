@@ -74,3 +74,7 @@ function ganaPC(){
     contenedorPuntosPC.innerHTML = puntosPC;
     contenedorGanaPunto.innerHTML = "¡La computadora gano un punto! 😭";
 }
+
+function empate(){
+    contenedorGanaPunto.innerHTML = "¡Empate 😱!";
+}
