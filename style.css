@@ -141,3 +141,7 @@ main {
     background-color: var(--clr-purple);
     color: var(--clr-beige);
 }
+
+.disabled {
+    display: none;
+}
