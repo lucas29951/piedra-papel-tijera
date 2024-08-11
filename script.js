@@ -44,4 +44,8 @@ function iniciarTurno(e) {
     } else {
         empate();
     }
+
+    mensaje.classList.remove("disabled");
+    contenedorEleccionUsuario.innerHTML = eleccionUsuario;
+    contenedorEleccionPC.innerHTML = eleccionPC;
 }
