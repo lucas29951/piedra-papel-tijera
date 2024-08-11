@@ -45,7 +45,20 @@ function iniciarTurno(e) {
         empate();
     }
 
-    mensaje.classList.remove("disabled");
+    mensaje.classList.remove('disabled');
     contenedorEleccionUsuario.innerHTML = eleccionUsuario;
     contenedorEleccionPC.innerHTML = eleccionPC;
+
+    if(puntosUsuario === 5 || puntosPC === 5){
+        if(puntosUsuario === 5){
+            instrucciones.innerHTML = "🔥 ¡Ganaste el juego! 🔥";
+        }
+        if(puntosPC === 5){
+            instrucciones.innerHTML = "😭 ¡La computadora gano el juego! 😭";
+        }
+
+        eligeTuArma.classList.add('disabled');
+        reiniciar.classList.remove('disabled');
+        reiniciar.addEventListener('click', reiniciarJuego);
+    }
 }
