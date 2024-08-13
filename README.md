@@ -1,5 +1,6 @@
 # Piedra, Papel o Tijera
 
+![Pantalla de Juego](screenshot.png)
 Este proyecto es una version sencilla del clásico juego de Piedra, Papel o Tijera, desarrollado con HTML, CSS y JavaScript. Es un ejemplo de cómo crear una interfaz de usuario interactiva y funcional utilizando tecnologías front-end básicas.
 
 ## Descripción
@@ -24,10 +25,6 @@ El proyecto está compuesto por tres archivos principales:
 ## Uso
 
 Para jugar al juego, simplemente abre el archivo `index.html` en tu navegador web preferido. Verás las instrucciones en pantalla y podrás seleccionar tu movimiento haciendo clic en uno de los botones correspondientes. El juego mostrará el resultado de cada ronda y actualizará el puntaje hasta que uno de los jugadores alcance los 5 puntos.
-
-## Capturas de Pantalla
-
-![Pantalla de Juego](screenshot.png)
 
 ## Tecnologías Utilizadas
 
